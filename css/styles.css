@@ -1,0 +1,28 @@
+.container {
+  width: 1450px;
+  height: 133px;
+  background-color: rgb(194, 194, 255);
+}
+
+.nav-con {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: end; /* ставь 5px, 8px, 10px — как тебе */
+}
+
+.nav-list {
+  list-style: none;
+}
+.nav-con a {
+  text-decoration: none;
+  margin-right: 100px;
+}
+.nav-con img {
+  margin-left: 30px;
+  margin-top: 8px;
+}
+.logo {
+  margin-left: 30px;
+  margin-top: 8px;
+}
